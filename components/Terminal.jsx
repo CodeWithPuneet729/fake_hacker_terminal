@@ -61,7 +61,7 @@ const SigmaTyper = () => {
                 <div ref={scrollRef} className="p-6 flex-1 overflow-y-auto space-y-1 scrollbar-hide">
                     {lines.length === 0 && (
                         <div className="h-full flex flex-col items-center justify-center opacity-30 text-2xl animate-pulse">
-                            <div className="text-9xl">START TYPING TO BREACH...</div>
+                            <div className="text-5xl">START TYPING TO BREACH...</div>
                             <div>DEVELOPED BY<span className="text-red-400 animate-none"> CodeWithPuneet </span>TO HACK ANYONE </div>
                             <div>&copy; 2025 All rights reserved.</div>
                         </div>
