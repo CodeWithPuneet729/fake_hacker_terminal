@@ -55,14 +55,14 @@ const SigmaTyper = () => {
 
                 <div className="border-b border-green-500 p-3 flex justify-between items-center text-[10px] bg-green-500/5 uppercase">
                     <span className="animate-pulse">● SIGNAL_STRENGTH: 98%</span>
-                    <span className='animate-pulse'>TERMINAL</span>
+                    <span className='animate-pulse'>● TERMINAL</span>
                 </div>
 
                 <div ref={scrollRef} className="p-6 flex-1 overflow-y-auto space-y-1 scrollbar-hide">
                     {lines.length === 0 && (
-                        <div className="h-full flex items-center justify-center opacity-30 text-2xl animate-pulse">
+                        <div className="h-full flex flex-col items-center justify-center opacity-30 text-2xl animate-pulse">
                             <div className="text-xl">START TYPING TO BREACH...</div>
-                            <pre>DEVELOPED BY <span className="text-green-300"> CodeWithPuneet </span> TO HACK ANYONE
+                            <pre>DEVELOPED BY<span className="text-yellow-400"> CodeWithPuneet </span>TO HACK ANYONE
                             &copy; 2025 All rights reserved.</pre>
                         </div>
                     )}
