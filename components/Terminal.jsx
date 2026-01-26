@@ -61,7 +61,9 @@ const SigmaTyper = () => {
                 <div ref={scrollRef} className="p-6 flex-1 overflow-y-auto space-y-1 scrollbar-hide">
                     {lines.length === 0 && (
                         <div className="h-full flex items-center justify-center opacity-30 text-2xl animate-pulse">
-                            START TYPING TO BREACH...
+                            <div className="text-xl">START TYPING TO BREACH...</div>
+                            <pre>DEVELOPED BY <span className="text-green-300"> CodeWithPuneet </span> TO HACK ANYONE
+                            &copy; 2025 All rights reserved.</pre>
                         </div>
                     )}
                     {lines.map((line, i) => (
