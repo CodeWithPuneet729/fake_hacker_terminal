@@ -62,8 +62,8 @@ const SigmaTyper = () => {
                     {lines.length === 0 && (
                         <div className="h-full flex flex-col items-center justify-center opacity-30 text-2xl animate-pulse">
                             <div className="text-xl">START TYPING TO BREACH...</div>
-                            <pre>DEVELOPED BY<span className="text-yellow-400"> CodeWithPuneet </span>TO HACK ANYONE
-                            &copy; 2025 All rights reserved.</pre>
+                            <div>DEVELOPED BY<span className="text-red-400 animate-none"> CodeWithPuneet </span>TO HACK ANYONE </div>
+                            <div>&copy; 2025 All rights reserved.</div>
                         </div>
                     )}
                     {lines.map((line, i) => (
